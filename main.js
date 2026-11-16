@@ -1,11 +1,11 @@
-// Aplicatia nativa Kimono Brain: o fereastra care deschide brain.danielbirtas.com.
+// Aplicatia nativa 1911brain: o fereastra care deschide brain.danielbirtas.com.
 // Creierul traieste pe server; asta e doar carcasa nativa (ca ChatGPT/Claude desktop).
 const { app, BrowserWindow, shell } = require('electron');
 const URL = 'https://brain.danielbirtas.com/';
 function creeaza() {
   const win = new BrowserWindow({
     width: 1280, height: 860, minWidth: 760, minHeight: 560,
-    title: 'Kimono Brain', backgroundColor: '#F2F4F8',
+    title: '1911brain', backgroundColor: '#F2F4F8',
     webPreferences: { contextIsolation: true },
   });
   win.loadURL(URL);

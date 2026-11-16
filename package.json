@@ -1,20 +1,20 @@
 {
-  "name": "kimono-brain",
-  "productName": "Kimono Brain",
+  "name": "brain1911",
+  "productName": "1911brain",
   "version": "1.0.0",
-  "description": "Kimono Brain - al doilea creier al lui Daniel",
+  "description": "1911brain - al doilea creier personal al lui Daniel",
   "main": "main.js",
-  "author": "Kimono",
+  "author": "Daniel Birtas",
   "license": "UNLICENSED",
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder --mac --publish never"
   },
   "build": {
-    "appId": "com.kimonogroup.brain",
-    "productName": "Kimono Brain",
+    "appId": "com.danielbirtas.brain1911",
+    "productName": "1911brain",
     "mac": { "category": "public.app-category.productivity", "target": ["dmg"], "identity": null },
-    "dmg": { "title": "Kimono Brain" }
+    "dmg": { "title": "1911brain" }
   },
   "devDependencies": { "electron": "33.2.1", "electron-builder": "25.1.8" }
 }
