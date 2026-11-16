@@ -13,7 +13,7 @@
   "build": {
     "appId": "com.danielbirtas.brain1911",
     "productName": "1911brain",
-    "mac": { "category": "public.app-category.productivity", "target": ["dmg"], "identity": null },
+    "mac": { "category": "public.app-category.productivity", "target": [{ "target": "dmg", "arch": "universal" }], "identity": null },
     "dmg": { "title": "1911brain" }
   },
   "devDependencies": { "electron": "33.2.1", "electron-builder": "25.1.8" }
